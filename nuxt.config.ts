@@ -36,5 +36,26 @@ export default defineNuxtConfig({
       redirectOn: 'root',
       fallbackLocale: 'en'
     }
+  },
+  ogImage: {
+    enabled: true
+  },
+  sitemap: {
+    enabled: true
+  },
+  robots: {
+    enabled: true
+  },
+  seo: { // seo utils
+    enabled: true
+  },
+  schemaOrg: {
+    enabled: true
+  },
+  linkChecker: {
+    enabled: true
+  },
+  site: {
+    enabled: true
   }
 })

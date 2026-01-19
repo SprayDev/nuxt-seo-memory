@@ -9,6 +9,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "overrides": {
+    "nuxt-site-config": "3.2.18"
+  },
   "dependencies": {
     "@nuxtjs/i18n": "^10.2.1",
     "@nuxtjs/seo": "^3.3.0",
