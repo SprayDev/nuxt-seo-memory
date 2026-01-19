@@ -2,8 +2,6 @@ services:
   nuxt:
     build:
       context: .
-    env_file:
-      - .env
     mem_limit: 2500M
     ports:
       - "3000:3000"
