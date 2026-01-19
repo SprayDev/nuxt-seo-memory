@@ -1,0 +1,21 @@
+{
+  "name": "custom-wrapper",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^10.2.1",
+    "@nuxtjs/seo": "^3.3.0",
+    "crypto-js": "^4.2.0",
+    "nuxt": "^4.2.2",
+    "uuid": "^13.0.0",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4"
+  }
+}
