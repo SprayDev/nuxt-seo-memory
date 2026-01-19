@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/i18n'],
+  modules: [
+    '@nuxtjs/i18n',
+    '@nuxtjs/seo'
+  ],
   i18n: {
     baseUrl: process.env.NUXT_PUBLIC_URL,
     compilation: {
