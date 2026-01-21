@@ -2,7 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/i18n', 'nuxt-site-config', '@nuxtjs/sitemap'],
+  modules: [
+    '@nuxtjs/i18n',
+    'nuxt-site-config',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
+    'nuxt-seo-utils',
+    'nuxt-schema-org'
+  ],
   i18n: {
     baseUrl: process.env.NUXT_PUBLIC_URL,
     compilation: {
