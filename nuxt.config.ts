@@ -2,10 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: [
-    '@nuxtjs/i18n',
-    '@nuxtjs/seo'
-  ],
+  modules: ['@nuxtjs/i18n', 'nuxt-site-config', '@nuxtjs/sitemap'],
   i18n: {
     baseUrl: process.env.NUXT_PUBLIC_URL,
     compilation: {
@@ -37,25 +34,25 @@ export default defineNuxtConfig({
       fallbackLocale: 'en'
     }
   },
-  ogImage: {
-    enabled: true
-  },
-  sitemap: {
-    enabled: true
-  },
-  robots: {
-    enabled: true
-  },
-  seo: { // seo utils
-    enabled: true
-  },
-  schemaOrg: {
-    enabled: true
-  },
-  linkChecker: {
-    enabled: true
-  },
-  site: {
-    enabled: true
-  }
+  // ogImage: {
+  //   enabled: true
+  // },
+  // sitemap: {
+  //   enabled: true
+  // },
+  // robots: {
+  //   enabled: true
+  // },
+  // seo: { // seo utils
+  //   enabled: true
+  // },
+  // schemaOrg: {
+  //   enabled: true
+  // },
+  // linkChecker: {
+  //   enabled: true
+  // },
+  // site: {
+  //   enabled: true
+  // }
 })
